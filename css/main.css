@@ -1,0 +1,45 @@
+body {
+  background: #232323;
+  font-family: helvetica;
+}
+h1 {
+  padding: 0;
+  text-transform: uppercase;
+
+}
+.header {
+  color: #232323;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.squareContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  background: purple;
+  display: inline-block;
+  margin: 2px 3px;
+  border-radius: 15px;
+  transition: background 0.3s;
+}
+
+.messageArea {
+  background: white;
+  color: black;
+  height: 45px;
+
+}
+
+button {
+  height: 100%;
+  background: none;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}

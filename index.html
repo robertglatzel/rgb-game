@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Data -->
+		<meta charset="utf-8">
+		<meta name="author" content="Robert Glatzel">
+		<meta name="description" content="...">
+
+			<!-- For media Query -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<!-- Latest compiled and minified CSS for bootstrap-->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+			<!-- Optional Bootstrap theme -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+			<!-- Title Here  -->
+		<title>RGBA Color Game</title>
+
+			<!-- Main CSS Here -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 header">
+					<h1>RGB Guessing Game!</h1>
+					<h1 id="displayColor"></h1>
+					<h3 id="message">Which one is it?</h3>
+					<div class="messageArea">
+						<button id="resetButton">New Colors</button>
+					</div>
+				</div>
+			</div>
+			<div class="row squareContainer">
+				<div class="col-xl-6">
+					<div class="square">
+					</div>
+					<div class="square">
+					</div>
+					<div class="square">
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="square">
+					</div>
+					<div class="square">
+					</div>
+					<div class="square">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery script comes BEFORE BOOTSTRAP -->
+
+		<!-- jQuery Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+   	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+   	<!-- Custom JavaScript -->
+   	<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+
+</html>
